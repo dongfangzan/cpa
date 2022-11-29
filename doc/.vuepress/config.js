@@ -37,9 +37,7 @@ module.exports = {
         lastUpdated: '最后更新',
         nav: [
             { text: '首页', link: '/' },
-            { text: '关于我', link: '/关于我.html'},
-            { text: 'Gitee', link: 'https://gitee.com/mortise-and-tenon/tesla-java-sdk' },
-            { text: 'Github', link: 'https://github.com/dongfangzan/tesla-java-sdk' }
+            { text: '关于我', link: '/关于我.html'}
         ],
         sidebar: [
             {
