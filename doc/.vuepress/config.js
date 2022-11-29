@@ -1,9 +1,9 @@
 module.exports = {
     title: '东方赞的CPA之旅-从狗屁不通到高大上的注册会计师',
-    description: '加速全球向可持续能源的转变',
+    description: '从狗屁不通到高大上的注册会计师',
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }],
-        ['meta', { name: 'keywords', content: '特斯拉,Model Y,Model S,Model X,Model 3,Tesla,api,tesla' }],
+        ['meta', { name: 'keywords', content: 'cpa,注册会计师,会计,审计,税法,财务成本管理,经济法,公司战略与风险管理' }],
         [ 'script', {}, `
             var _hmt = _hmt || [];
             (function() {
@@ -37,7 +37,7 @@ module.exports = {
         lastUpdated: '最后更新',
         nav: [
             { text: '首页', link: '/' },
-            { text: '关于我', link: '/about-me.html'},
+            { text: '关于我', link: '/关于我.html'},
             { text: 'Gitee', link: 'https://gitee.com/mortise-and-tenon/tesla-java-sdk' },
             { text: 'Github', link: 'https://github.com/dongfangzan/tesla-java-sdk' }
         ],
@@ -48,78 +48,23 @@ module.exports = {
                 children: []
             },
             {
-                title: '基础 API',
-                path: '/basics',
+                title: 'Getting Started',
+                // path: '/start',
                 children: [
-                    '/basics/authentication.html',
-                    '/basics/auth_tool.html',
-                    '/basics/vehicles.html'
+                    {
+                        title: '会计',
+                        children: [
+                            '/start/accountant/存货.html'
+                        ]
+                    }
+
                 ]
-            },
-            {
-                title: '状态 State',
-                path: '/state',
-                children: [
-                    '/state/data.html',
-                    '/state/vehicle.html',
-                    '/state/charge.html',
-                    '/state/climate.html',
-                    '/state/drive.html',
-                    '/state/GUI.html',
-                    '/state/config.html',
-                    '/state/mobile.html',
-                    '/state/nearby.html'
-                ]
-            },
-            {
-                title: '指令 Command',
-                children: [
-                    '/command/wake.html',
-                    '/command/alerts.html',
-                    '/command/remote-start.html',
-                    '/command/homelink.html',
-                    '/command/speed-limit.html',
-                    '/command/valet-mode.html',
-                    '/command/sentry-mode.html',
-                    '/command/door.html',
-                    '/command/frunk-trunk.html',
-                    '/command/windows.html',
-                    '/command/charging.html',
-                    '/command/climate.html',
-                    '/command/media.html',
-                    '/command/sharing.html',
-                    '/command/software-update.html'
-                ]
-            },
-            {
-                title: '流 Streaming',
-                path: '/streaming/',
-                children: []
-            },
-            {
-                title: '字典 Option Code',
-                path: 'option-code.html',
-                children: []
             },
             {
                 title: '关于我',
-                path: '/about-me.html',
+                path: '/关于我.html',
                 children: []
             }
-            // {
-            //     title: '自动泊车/召唤',
-            //     path: '/basics',
-            //     children: [
-            //         '/basics/authentication.html'
-            //     ]
-            // },
-            // {
-            //     title: '字典',
-            //     path: '/basics',
-            //     children: [
-            //         '/basics/authentication.html'
-            //     ]
-            // }
         ]
 
     }
