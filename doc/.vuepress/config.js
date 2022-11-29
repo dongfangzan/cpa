@@ -8,7 +8,7 @@ module.exports = {
             var _hmt = _hmt || [];
             (function() {
               var hm = document.createElement("script");
-              hm.src = "https://hm.baidu.com/hm.js?10befa5b7f9ac8db7ba52074ce7553a7";
+              hm.src = "https://hm.baidu.com/hm.js?c313aeee77efcb287eed41fe1ceec39b";
               var s = document.getElementsByTagName("script")[0]; 
               s.parentNode.insertBefore(hm, s);
             })();`
@@ -17,9 +17,9 @@ module.exports = {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-Z718YJ6MRQ');`
+            gtag('config', 'G-23ZR28T52K');`
         ],
-        [ 'script', {src:'https://www.googletagmanager.com/gtag/js?id=G-Z718YJ6MRQ'}]
+        [ 'script', {src:'https://www.googletagmanager.com/gtag/js?id=G-23ZR28T52K'}]
     ],
     base: '/',
     markdown: {
@@ -28,7 +28,7 @@ module.exports = {
     plugins: [
         [
             '@vuepress/google-analytics', {
-            'ga': 'G-Z718YJ6MRQ'
+            'ga': 'G-23ZR28T52K'
         }
         ]
     ],
