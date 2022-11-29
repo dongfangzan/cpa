@@ -1,0 +1,14 @@
+{
+  "name": "tesla-java-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "docs:dev": "vuepress dev doc",
+    "docs:build": "vuepress build doc"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.9.7",
+    "vuepress": "^1.9.7",
+    "vuepress-theme-meteorlxy": "^1.9.0"
+  }
+}
